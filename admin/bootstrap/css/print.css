@@ -1,0 +1,72 @@
+.navbar{
+	display:none;
+}
+.modal{
+	display:none;
+}
+.breadcrumb{
+	margin-bottom:50px !important;
+}
+.breadcrumb li{
+	list-style:none;
+	float:left;
+	color:#000;
+	margin-left:10px;
+		font-size:15px;	
+	font-weight:bold !important; 
+}
+.breadcrumb li a{
+		font-size:15px;	
+	font-weight:bold !important; 
+}
+body {
+    font-family:'ProximaNova-Light',Helvetica,Arial,sans-serif !important;
+}
+@font-face
+{
+font-family: 'ProximaNova-Light';
+src: url('ProximaNova-Light.otf');
+}
+a{
+	text-decoration:none;
+	color:#000;
+	font-size:15px;	
+	font-weight:bold !important; 
+}
+.block{
+margin-top:50px !important;
+}
+
+#avatar{
+	display:none;
+}
+#print{
+	display:none;
+}
+.nav{
+	display:none;
+}
+#search_class{
+	display:none;
+}
+footer{
+	display:none;
+}
+table{
+	width:700px;
+	margin:0 auto;
+	margin-top:50px !important;
+}
+td{
+	text-align:center;
+	width:300px;
+	border:1px solid;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+}
+th{
+	padding-top:30px !important;	
+	border-bottom:1px solid;
+	border-top:1px solid;
+}

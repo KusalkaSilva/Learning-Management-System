@@ -1,0 +1,159 @@
+body { 
+    background: url(../../images/index.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover; 
+}
+@font-face
+{
+    font-family: 'hetilica';
+    src: url('hetilica.ttf');
+}
+/* iPad [portrait + landscape] */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .title h3 {
+        color: #fff;
+        font-size: 30px !important;
+        margin: auto 0;
+        padding: 20px;
+        text-align: left;
+    }
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 480px) {
+    .title {
+        margin: -146px auto !important;
+        position: absolute;
+    }
+    
+    .title h3 {
+        color: #fff;
+        font-size: 34px !important;
+        margin: auto 0;
+        padding: 20px;
+        text-align: left;
+    }
+    .motto{
+        display:none;
+    }
+    .title_index .span12{
+        display:none;
+    }
+
+    #login .form-signin:first-child {
+        background: url("../../images/pixel-60fff.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+        box-shadow: 0 1px 3px rgba(15, 15, 15, 0.2);
+        float: none;
+        margin-top: 0px !important;
+    }
+    
+    #login .form-signin {
+        background-color: #FFFFFF;
+        border: 1px solid #E5E5E5;
+        border-radius: 5px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+        margin: 0 auto 20px;
+        max-width: 300px;
+        padding: 19px 18px 29px;
+    }
+
+}
+#login .form-signin .form-signin-heading, #login .form-signin .checkbox {
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+.title_index {
+    margin-top: -43px;
+}
+body{
+    font-family: 'TR Century Gothic', Arial, sans-serif;
+}
+@font-face
+{
+    font-family: 'TR Century Gothic';
+    src: url('TR Century Gothic.ttf');
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0) ;
+}
+.nsbm{
+    font-weight: bold;
+    color: #555;
+    font-size: 122px;
+    margin-bottom: -10px;
+    margin-left: 22px;
+    text-align: left;
+}
+.title{
+    margin:25px auto;
+}
+.title h3 {
+    color:#fff;
+    padding: 20px;
+    margin:auto 0;
+    font-size: 50px;
+    text-align: left;
+}
+.title h3 p {
+    margin-top: -10px;
+}
+.index-footer{
+
+}
+#login .form-signin:first-child{
+    margin-top: 70px;
+    float:none;
+    background: url("../../images/pixel-60fff.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 6, 0.75);
+    -moz-box-shadow:    2px 2px 5px rgba(0, 0, 6, 0.75);
+    box-shadow:         2px 2px 5px rgba(0, 0, 6, 0.75);
+    box-shadow: 0 1px 3px rgba(15, 15, 15, 0.2);
+
+}
+#login .form-signin{
+    float:none;
+    background: url("../../images/pixel-60fff.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 6, 0.75);
+    -moz-box-shadow:    2px 2px 5px rgba(0, 0, 6, 0.75);
+    box-shadow:         2px 2px 5px rgba(0, 0, 6, 0.75);
+    box-shadow: 0 1px 3px rgba(15, 15, 15, 0.2);
+
+}
+.btn-info{
+    background-color: #3B5998 !important; 
+    background-image: linear-gradient(to bottom, #3B5998, #3B5998) !important;
+    background-repeat: repeat-x !important;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25) !important;
+    color: #FFFFFF !important;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25) !important;
+}
+#login .navbar{
+    margin-top:10px !important;
+}
+#login .navbar-inner {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border:0px !important;
+    box-shadow:none;
+}
+#login .navbar .nav > li > a {
+    color: #ffffff !important;
+    float: none;
+    padding: 10px 15px;
+    text-shadow:none;
+    text-decoration: none;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
+}
+#logo{
+    max-height: 196px;
+    border-radius: 100px;
+}
+footer{
+    margin-right: 42px;
+    margin-top: 50px;
+    color: #FFFFFF;
+    font-weight:bold;
+}
