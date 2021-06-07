@@ -1,0 +1,15 @@
+.container{
+	margin-right: auto;  margin-left: auto;  *zoom: 1;  display: table;clear: both;  line-height: 0;
+}
+
+.row-fluid{
+	width: 100%;  *zoom: 1; display: table;  line-height: 0;clear: both;	
+}
+
+.span6{
+	width: 460px;  width: 48.93617021276595%;margin-right: auto;  margin-left: auto;  *zoom: 1;  display: table;clear: both;  line-height: 0;  *width: 48.88297872340425%;width: 100%;  *zoom: 1; display: table;  line-height: 0;clear: both;
+}
+
+.span12{
+	width: 940px;width: 100%;  *zoom: 1; display: table;  line-height: 0;clear: both;
+}
